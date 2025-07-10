@@ -4,7 +4,7 @@
     "title": "Montaña de Colores 1 Día",
     "description": "Disfruta de los mejores tours de Aventura en Cusco, descubre la Montaña de 7 Colores, la Laguna de Humantay, la montaña de colores Pallaypunchu, Waqrapukara, Las 7 lagunas de Ausangate y más.",
     "price": "60",
-    "image": "/mon_col.jpg",
+    "image": "./mon_col.jpg",
     "alt": "Vista panorámica de la Montaña de 7 Colores en Cusco",
     "duration": "1 Día",
     "location": "Cusco - Vinicunca"
@@ -14,7 +14,7 @@
     "title": "Laguna Humantay 1 Día",
     "description": "Disfruta de experiencias únicas y descubre los impresionantes paisajes que rodean la ciudad del Cusco donde además podrás relajarte y aprender sobre la cultura de los pobladores locales y la cosmovisión andina.",
     "price": "55",
-    "image": "/lag_hu.jpg",
+    "image": "./lag_hu.jpg",
     "alt": "Aguas turquesas de la Laguna Humantay con nevado al fondo",
     "duration": "1 Día",
     "location": "Cusco - Humantay"
@@ -24,7 +24,7 @@
     "title": "Montaña de Colores en Cuatrimoto 1 Día",
     "description": "Disfruta de los mejores tours de Aventura en Cusco, descubre la Montaña de 7 Colores, la Laguna de Humantay, la montaña de colores Pallaypunchu, Waqrapukara, Las 7 lagunas de Ausangate y más.",
     "price": "90",
-    "image": "/cuatri_mon.jpg",
+    "image": "./cuatri_mon.jpg",
     "alt": "Persona en cuatrimoto con la Montaña de Colores de fondo",
     "duration": "1 Día",
     "location": "Cusco - Cuatrimoto"

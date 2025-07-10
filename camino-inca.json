@@ -2,7 +2,7 @@
     "tours": [
         {
             "id": "camino-inca-001",
-            "image": "/cam1.jpg",
+            "image": "./cam1.jpg",
             "alt": "Camino Inca a Machu Picchu por tren Privado",
             "ribbon": "30% OFF",
             "duration": "1 Día",
@@ -18,7 +18,7 @@
         },
         {
             "id": "camino-inca-002",
-            "image": "/vp_cam.jpg",
+            "image": "./vp_cam.jpg",
             "alt": "Valle VIP + Camino Inca a Machu Picchu",
             "duration": "1 Día",
             "title": "VALLE VIP + CAMINO INCA A MACHU PICCHU",
@@ -33,7 +33,7 @@
         },
         {
             "id": "camino-inca-003",
-            "image": "/cam_exp.jpg",
+            "image": "./cam_exp.jpg",
             "alt": "Camino Inca a Machu Picchu Express",
             "duration": "1 Día",
             "title": "CAMINO INCA A MACHU PICCHU EXPRESS",

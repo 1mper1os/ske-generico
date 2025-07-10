@@ -2,7 +2,7 @@
     "tours": [
         {
             "id": 1,
-            "image": "/card1.jpg",
+            "image": "./card1.jpg",
             "alt": "Tour en tren a Machu Picchu 1",
             "isFavorite": false,
             "location": "Piskacucho - Wiñaywayna - Machupicchu",
@@ -15,7 +15,7 @@
         },
         {
             "id": 2,
-            "image": "/tren_map.jpg",
+            "image": "./tren_map.jpg",
             "alt": "Tour en tren a Machu Picchu 2",
             "isFavorite": true,
             "location": "Cusco - Aguas Calientes - Machupicchu",
@@ -28,7 +28,7 @@
         },
         {
             "id": 3,
-            "image": "/card3.jpg",
+            "image": "./card3.jpg",
             "alt": "Tour en tren a Machu Picchu 3",
             "isFavorite": false,
             "location": "Ollantaytambo - Machupicchu - Cusco",
@@ -41,7 +41,7 @@
         },
         {
             "id": 4,
-            "image": "/tren_mapp.jpg",
+            "image": "./tren_mapp.jpg",
             "alt": "Tour en tren a Machu Picchu 4",
             "isFavorite": true,
             "location": "Poroy - Aguas Calientes - Machupicchu",
@@ -54,7 +54,7 @@
         },
         {
             "id": 5,
-            "image": "/card2.jpg",
+            "image": "./card2.jpg",
             "alt": "Tour en tren a Machu Picchu 5",
             "isFavorite": false,
             "location": "Urubamba - Machupicchu - Cusco",
@@ -67,7 +67,7 @@
         },
         {
             "id": 6,
-            "image": "/card2.jpg",
+            "image": "./card2.jpg",
             "alt": "Tour en tren a Machu Picchu 5",
             "isFavorite": false,
             "location": "Urubamba - Machupicchu - Cusco",
