@@ -6,7 +6,7 @@
         "precio": 120,
         "duracion": "1 Día",
         "ubicacion": "Ica - Paracas",
-        "imagen": "/huaca.jpg",
+        "imagen": "./huaca.jpg",
         "alt": "Tour Paracas y Huacachina"
     },
     {
@@ -16,7 +16,7 @@
         "precio": 180,
         "duracion": "2 Días / 1 Noche",
         "ubicacion": "Puno - Lago Titicaca",
-        "imagen": "/uros.jpg",
+        "imagen": "./uros.jpg",
         "alt": "Tour Isla de Uros y Taquile"
     },
     {
@@ -26,7 +26,7 @@
         "precio": 95,
         "duracion": "1 Día",
         "ubicacion": "Arequipa - Cañón del Colca",
-        "imagen": "/ca_col.jpg",
+        "imagen": "./ca_col.jpg",
         "alt": "Tour Cañón del Colca"
     }
 ]
