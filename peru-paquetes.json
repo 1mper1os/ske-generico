@@ -1,8 +1,5 @@
 {
-  "section": {
-    "title": "Paquetes Perú",
-    "description": "Perú es un país de Sudamérica con una rica diversidad cultural y paisajística. Explora Machu Picchu, Lima, Puno, el Lago Titicaca y mucho más en nuestros programas especialmente diseñados. Elige el programa de tu preferencia y combina varias experiencias inolvidables."
-  },
+  
   "tours": [
     {
       "id": "tour-1",

@@ -2288,8 +2288,8 @@ body, html {
 }
 
 .section-title {
-    font-size: 2.5rem;
-    font-weight: 800;
+    
+    
     color: var(--color-accent);
     margin-bottom: 1rem;
     line-height: 1.2;
@@ -2324,7 +2324,7 @@ body, html {
 
 /* Divisor */
 .divider2 {
-    width: 70%;
+    width: 60%;
     height: 3px;
     background: linear-gradient(to right, var(--color-primary) 33.33%, var(--color-secondary) 33.33% 66.66%, var(--color-accent) 66.66% 100%);
     margin: 1rem auto 2rem;
@@ -2685,9 +2685,7 @@ body, html {
 }
 
 @media (max-width: 1024px) {
-    .section-title {
-        font-size: 2rem;
-    }
+    
     
     .carousel-container {
         max-width: 750px;
@@ -3041,10 +3039,10 @@ body, html {
 }
 
 .divide7 {
-  width: 40%;
+  width: 36.5%;
   height: 3px;
   background: linear-gradient(to right, #004351 33.33%, #e27208 33.33% 66.66%, #aa252e 66.66% 100%);
-  margin: 10px auto 20px;
+  margin-top: -25px;
   animation: dividerAnimation 1s ease-out forwards;
   opacity: 0;
   transform: scaleX(0);
@@ -3123,7 +3121,7 @@ body, html {
 
 /* Divisor Salkantay */
 .salkantay-divider {
-  width: 40%;
+  width: 27%;
   height: 3px;
   background: linear-gradient(to right, #004351 33.33%, #e27208 33.33% 66.66%, #aa252e 66.66% 100%);
   margin: -25px auto 20px;
@@ -4036,7 +4034,7 @@ body, html {
     width: 100%;
     height: 3px;
     background: linear-gradient(to right, #004351 33.33%, #e27208 33.33% 66.66%, #aa252e 66.66% 100%);
-    margin: 10px auto 20px;
+    
     animation: dividerAnimation 1s ease-out forwards;
     opacity: 0;
     transform: scaleX(0);
@@ -4398,7 +4396,7 @@ body, html {
     width: 30%;
     height: 3px;
     background: linear-gradient(to right, #004351 33.33%, #e27208 33.33% 66.66%, #aa252e 66.66% 100%);
-    margin: 10px auto 20px;
+    margin: -10px auto 20px;
     animation: dividerAnimation 1s ease-out forwards;
     opacity: 0;
     transform: scaleX(0);
@@ -4550,8 +4548,8 @@ body, html {
 }
 
 .amazona-section-title {
-    font-size: 3rem;
-    font-weight: 800;
+     
+   
     color: #004351;
     margin-bottom: 1rem;
     line-height: 1.2;

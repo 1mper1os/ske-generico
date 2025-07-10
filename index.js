@@ -593,8 +593,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     
     const data = await response.json();
     
-    // 2. Actualizar la sección
-    updateSectionContent(data.section);
+        
     
     // 3. Generar tarjetas
     renderTourCards(data.tours);
@@ -608,14 +607,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   }
 });
 
-// Función para actualizar el contenido de la sección
-function updateSectionContent(sectionData) {
-  const titleElement = document.getElementById('section-title');
-  const descElement = document.getElementById('section-description');
-  
-  if (titleElement) titleElement.textContent = sectionData.title;
-  if (descElement) descElement.textContent = sectionData.description;
-}
+
 
 // Función para renderizar las tarjetas
 function renderTourCards(tours) {
