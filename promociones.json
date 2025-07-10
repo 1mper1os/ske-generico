@@ -3,7 +3,7 @@
     "cusco": [
       {
         "id": "cusco-001",
-        "image": "./card1.jpg",
+        "image": "../card1.jpg",
         "alt": "Machu Picchu",
         "ribbon": "50% OFF",
         "days": "7 Días",
