@@ -663,7 +663,7 @@ function setTextContent(parent, selector, text) {
 function showTourDetails(tour) {
   console.log('Mostrando detalles para:', tour.title);
   // Implementar lógica para modal o redirección
-  // Ejemplo: window.location.href = `/tour-detalle?id=${tour.id}`;
+  
 }
 
 // Función para configurar eventos
