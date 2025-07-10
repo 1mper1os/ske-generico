@@ -1,0 +1,63 @@
+{
+    "tours": [
+        {
+            "id": "camino-inca-001",
+            "image": "/cam1.jpg",
+            "alt": "Camino Inca a Machu Picchu por tren Privado",
+            "ribbon": "30% OFF",
+            "duration": "1 Día",
+            "title": "CAMINO INCA A MACHU PICCHU POR TREN PRIVADO",
+            "location": "Cusco, Valle Sagrado, Machu Picchu",
+            "description": "Experimenta la magia del Camino Inca llegando a Machu Picchu en tren privado. Una experiencia única y cómoda.",
+            "includes": ["camera", "binoculars", "train-front", "h-square", "bus-front", "person"],
+            "difficulty": 2,
+            "rating": 5,
+            "totalReviews": 35,
+            "price": 899,
+            "oldPrice": 1285
+        },
+        {
+            "id": "camino-inca-002",
+            "image": "/vp_cam.jpg",
+            "alt": "Valle VIP + Camino Inca a Machu Picchu",
+            "duration": "1 Día",
+            "title": "VALLE VIP + CAMINO INCA A MACHU PICCHU",
+            "location": "Cusco, Valle Sagrado, Ollantaytambo",
+            "description": "Combina la experiencia VIP del Valle Sagrado con el legendario Camino Inca en un tour de lujo de un día completo.",
+            "includes": ["camera", "binoculars", "train-front", "h-square", "bus-front", "person", "utensils"],
+            "difficulty": 3,
+            "rating": 5,
+            "totalReviews": 28,
+            "price": 899,
+            "oldPrice": 1200
+        },
+        {
+            "id": "camino-inca-003",
+            "image": "/cam_exp.jpg",
+            "alt": "Camino Inca a Machu Picchu Express",
+            "duration": "1 Día",
+            "title": "CAMINO INCA A MACHU PICCHU EXPRESS",
+            "location": "Cusco, Wiñay Wayna, Machu Picchu",
+            "description": "La ruta más rápida y emocionante del Camino Inca. Perfecto para quienes tienen poco tiempo pero quieren vivir la experiencia completa.",
+            "includes": ["camera", "binoculars", "train-front", "h-square", "person", "utensils"],
+            "difficulty": 3,
+            "rating": 4,
+            "totalReviews": 42,
+            "price": 899,
+            "oldPrice": 1150
+        }
+    ],
+    "iconTitles": {
+        "camera": "Cámara",
+        "binoculars": "Binoculares",
+        "train-front": "Tren",
+        "h-square": "Hotel",
+        "bus-front": "Bus",
+        "person": "Guía",
+        "utensils": "Comida"
+    },
+    "config": {
+        "maxDifficulty": 5,
+        "maxRating": 5
+    }
+}

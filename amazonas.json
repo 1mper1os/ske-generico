@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Eco Jungle",
+    "duration": "2D/1N",
+    "description": "Descubre la selva amazónica en un programa de 2 días. Podrás ver aves, lobos de ríos, anacondas, tortugas y más.",
+    "longDescription": "Este tour de 2 días y 1 noche te sumerge rápidamente en la belleza de la Amazonía peruana. Ideal para aquellos con tiempo limitado, te permitirá experimentar la vida silvestre más accesible, incluyendo diversas aves, lobos de río y la oportunidad de avistar anacondas y tortugas en su hábitat natural. Incluye alojamiento en eco-lodge y todas las comidas.",
+    "price": 150,
+    "image": "/aven_sel.jpg",
+    "alt": "Eco Jungle Tour"
+  },
+  {
+    "title": "Eco Mágico",
+    "duration": "3D/2N",
+    "description": "Una experiencia mágica de 3 días en la Amazonía, con más tiempo para explorar la flora y fauna local.",
+    "longDescription": "El tour Eco Mágico de 3 días y 2 noches ofrece una inmersión más profunda en la selva. Tendrás más tiempo para explorar senderos, realizar excursiones en bote por los ríos y lagos, y aumentar tus posibilidades de encuentros cercanos con la fauna. Visita comunidades locales y aprende sobre sus tradiciones. Incluye guía especializado y equipo.",
+    "price": 250,
+    "image": "/manu_sel.jpg",
+    "alt": "Eco Mágico Tour"
+  },
+  {
+    "title": "Manu Zona Cultural",
+    "duration": "4D",
+    "description": "Explora la Zona Cultural del Manu durante 4 días, con oportunidades para avistar jaguares y otras especies en programas más extensos.",
+    "longDescription": "Nuestro programa de 4 días en la Zona Cultural del Parque Nacional del Manu es perfecto para los amantes de la naturaleza y la cultura. Este tour te lleva a través de diversos ecosistemas, ofreciendo excelentes oportunidades para la observación de aves, monos y, con suerte, el majestuoso jaguar. Conoce a las etnias locales y su forma de vida sostenible. Incluye transporte, alojamiento y actividades.",
+    "price": 400,
+    "image": "/tam_sel.jpg",
+    "alt": "Manu Zona Cultural Tour"
+  }
+]

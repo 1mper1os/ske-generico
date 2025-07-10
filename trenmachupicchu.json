@@ -1,0 +1,88 @@
+{
+    "tours": [
+        {
+            "id": 1,
+            "image": "/card1.jpg",
+            "alt": "Tour en tren a Machu Picchu 1",
+            "isFavorite": false,
+            "location": "Piskacucho - Wiñaywayna - Machupicchu",
+            "title": "Machupicchu - FullDay Tour",
+            "rating": 4.5,
+            "totalReviews": 120,
+            "price": 400,
+            "durationText": "1 Full Day from",
+            "description": "Descubre los impresionantes paisajes andinos, disfruta de un viaje cómodo y seguro, y llega al corazón de una de las maravillas del mundo."
+        },
+        {
+            "id": 2,
+            "image": "/tren_map.jpg",
+            "alt": "Tour en tren a Machu Picchu 2",
+            "isFavorite": true,
+            "location": "Cusco - Aguas Calientes - Machupicchu",
+            "title": "Aventura en Tren a Aguas Calientes",
+            "rating": 5,
+            "totalReviews": 250,
+            "price": 280,
+            "durationText": "1 Full Day from",
+            "description": "Descubre los impresionantes paisajes andinos, disfruta de un viaje cómodo y seguro, y llega al corazón de una de las maravillas del mundo."
+        },
+        {
+            "id": 3,
+            "image": "/card3.jpg",
+            "alt": "Tour en tren a Machu Picchu 3",
+            "isFavorite": false,
+            "location": "Ollantaytambo - Machupicchu - Cusco",
+            "title": "Machu Picchu y Valle Sagrado",
+            "rating": 4.2,
+            "totalReviews": 85,
+            "price": 550,
+            "durationText": "2 Days / 1 Night from",
+            "description": "Descubre los impresionantes paisajes andinos, disfruta de un viaje cómodo y seguro, y llega al corazón de una de las maravillas del mundo."
+        },
+        {
+            "id": 4,
+            "image": "/tren_mapp.jpg",
+            "alt": "Tour en tren a Machu Picchu 4",
+            "isFavorite": true,
+            "location": "Poroy - Aguas Calientes - Machupicchu",
+            "title": "Tren Panorámico a Machu Picchu",
+            "rating": 4.8,
+            "totalReviews": 180,
+            "price": 420,
+            "durationText": "1 Full Day from",
+            "description": "Descubre los impresionantes paisajes andinos, disfruta de un viaje cómodo y seguro, y llega al corazón de una de las maravillas del mundo."
+        },
+        {
+            "id": 5,
+            "image": "/card2.jpg",
+            "alt": "Tour en tren a Machu Picchu 5",
+            "isFavorite": false,
+            "location": "Urubamba - Machupicchu - Cusco",
+            "title": "Expedición en Tren a la Ciudadela Inca",
+            "rating": 4.0,
+            "totalReviews": 95,
+            "price": 310,
+            "durationText": "1 Full Day from",
+            "description": "Descubre los impresionantes paisajes andinos, disfruta de un viaje cómodo y seguro, y llega al corazón de una de las maravillas del mundo."
+        },
+        {
+            "id": 6,
+            "image": "/card2.jpg",
+            "alt": "Tour en tren a Machu Picchu 5",
+            "isFavorite": false,
+            "location": "Urubamba - Machupicchu - Cusco",
+            "title": "Machu Picchu por tren + Waynapicchu",
+            "rating": 4.0,
+            "totalReviews": 95,
+            "price": 310,
+            "durationText": "2 days",
+            "description": "Descubre los impresionantes paisajes andinos, disfruta de un viaje cómodo y seguro, y llega al corazón de una de las maravillas del mundo."
+        }
+    ],
+    "config": {
+        "vistaCardsMDesktop": 3,
+        "vistaCardsMMobile": 1,
+        "scrollBehavior": "smooth",
+        "animationDuration": 500
+    }
+}

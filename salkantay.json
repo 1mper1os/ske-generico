@@ -1,0 +1,36 @@
+{
+    "tours": [
+        {
+            "image": "/cal_sk.jpg",
+            "alt": "Laguna Humantay y Salkantay",
+            "title": "Caminata a Laguna Humantay y abra Salkantay",
+            "days": "2 días",
+            "price": 899,
+            "oldPrice": 899
+        },
+        {
+            "image": "/csk_dom.jpg",
+            "alt": "Salkantay + Domos geodésicos",
+            "title": "Caminata a Salkantay + Domos geodésicos",
+            "days": "4 días",
+            "price": 899,
+            "oldPrice": 899
+        },
+        {
+            "image": "/csk_domm.jpg",
+            "alt": "Salkantay + Domos 5 días",
+            "title": "Caminata a Salkantay + Domos geodésicos",
+            "days": "5 días",
+            "price": 899,
+            "oldPrice": 899
+        }
+    ],
+    "config": {
+        "cardsPerViewDesktop": 3,
+        "cardsPerViewMobile": 1,
+        "scrollBehavior": "smooth",
+        "cardWidthDesktop": "33.333%",
+        "cardWidthMobile": "100%",
+        "gapSize": "16px"
+    }
+}
