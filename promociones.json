@@ -3,7 +3,7 @@
     "cusco": [
       {
         "id": "cusco-001",
-        "image": "/card1.jpg",
+        "image": "./card1.jpg",
         "alt": "Machu Picchu",
         "ribbon": "50% OFF",
         "days": "7 Días",
@@ -19,7 +19,7 @@
       },
       {
         "id": "cusco-002",
-        "image": "/saksa.jpg",
+        "image": "./saksa.jpg",
         "alt": "Sacsayhuamán",
         "days": "4 Días",
         "title": "CUSCO IMPERIAL",
@@ -34,7 +34,7 @@
       },
       {
         "id": "cusco-003",
-        "image": "/cam_sen.jpg",
+        "image": "./cam_sen.jpg",
         "alt": "Camino Inca",
         "days": "4 Días",
         "title": "CAMINO INCA CLÁSICO",
@@ -51,7 +51,7 @@
     "lima": [
       {
         "id": "lima-001",
-        "image": "/lima_col.jpg",
+        "image": "./lima_col.jpg",
         "alt": "Lima Colonial",
         "days": "3 Días",
         "title": "ENCANTO COLONIAL DE LIMA",
@@ -66,7 +66,7 @@
       },
       {
         "id": "lima-002",
-        "image": "/lim_gas.jpg",
+        "image": "./lim_gas.jpg",
         "alt": "Lima Gastronómica",
         "days": "2 Días",
         "title": "EXPERIENCIA GASTRONÓMICA LIMA",
@@ -81,7 +81,7 @@
       },
       {
         "id": "lima-003",
-        "image": "/lima_cos.png",
+        "image": "./lima_cos.png",
         "alt": "Lima Moderna",
         "days": "1 Día",
         "title": "LIMA MODERNA Y COSTERA",
@@ -98,7 +98,7 @@
     "puno": [
       {
         "id": "puno-001",
-        "image": "/mis_pun.jpg",
+        "image": "./mis_pun.jpg",
         "alt": "Lago Titicaca",
         "days": "2 Días",
         "title": "MISTERIOS DEL LAGO TITICACA",
@@ -113,7 +113,7 @@
       },
       {
         "id": "puno-002",
-        "image": "/sillus_pun.jpg",
+        "image": "./sillus_pun.jpg",
         "alt": "Sillustani",
         "days": "1 Día",
         "title": "CHULLPAS DE SILLUSTANI",
@@ -128,7 +128,7 @@
       },
       {
         "id": "puno-003",
-        "image": "/aman_pun.jpg",
+        "image": "./aman_pun.jpg",
         "alt": "Isla Amantaní",
         "days": "3 Días",
         "title": "VIVENCIA EN AMANTANÍ",
@@ -145,7 +145,7 @@
     "arequipa": [
       {
         "id": "arequipa-001",
-        "image": "/ca_col.jpg",
+        "image": "./ca_col.jpg",
         "alt": "Cañón del Colca",
         "days": "3 Días",
         "title": "CAÑÓN DEL COLCA",
@@ -160,7 +160,7 @@
       },
       {
         "id": "arequipa-002",
-        "image": "/col_con.jpg",
+        "image": "./col_con.jpg",
         "alt": "Ciudad Blanca",
         "days": "2 Días",
         "title": "CAÑON COLCA",
@@ -175,7 +175,7 @@
       },
       {
         "id": "arequipa-003",
-        "image": "/valle_col.jpg",
+        "image": "./valle_col.jpg",
         "alt": "Volcán Misti",
         "days": "2 Días",
         "title": "VALLE COLCA",
@@ -192,7 +192,7 @@
     "selva": [
       {
         "id": "selva-001",
-        "image": "/aven_sel.jpg",
+        "image": "./aven_sel.jpg",
         "alt": "Amazonas",
         "days": "4 Días",
         "title": "AVENTURA EN LA SELVA",
@@ -207,7 +207,7 @@
       },
       {
         "id": "selva-002",
-        "image": "/manu_sel.jpg",
+        "image": "./manu_sel.jpg",
         "alt": "Manu",
         "days": "5 Días",
         "title": "RESERVA NACIONAL MANU",
@@ -222,7 +222,7 @@
       },
       {
         "id": "selva-003",
-        "image": "/tam_sel.jpg",
+        "image": "./tam_sel.jpg",
         "alt": "Tambopata",
         "days": "3 Días",
         "title": "TAMBOPATA LODGE",
