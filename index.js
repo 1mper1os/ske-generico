@@ -781,3 +781,124 @@ function showAmazonaError() {
     </div>
   `;
 }
+
+
+// configuracion para destinos peru 
+
+// Variables globales
+let destinos = [];
+
+// Cargar datos desde JSON
+async function cargarDestinos() {
+    try {
+        const respuesta = await fetch('./destinos.json');
+        if (!respuesta.ok) throw new Error('Error al cargar destinos');
+        destinos = await respuesta.json();
+        renderizarDestinos();
+    } catch (error) {
+        console.error('Error:', error);
+        mostrarError();
+    }
+}
+
+// Renderizar tarjetas de destinos
+function renderizarDestinos() {
+    const contenedor = document.getElementById('destinos-container');
+    if (!contenedor) return;
+
+    // Obtener template y limpiar contenedor
+    const template = contenedor.querySelector('.destino-template');
+    contenedor.innerHTML = '';
+    if (template) contenedor.appendChild(template);
+
+    // Generar tarjetas para cada destino
+    destinos.forEach(destino => {
+        if (!template) return;
+
+        const tarjeta = template.cloneNode(true);
+        tarjeta.classList.remove('hidden', 'destino-template');
+        
+        // Llenar datos
+        tarjeta.querySelector('.destino-img').src = destino.imagen;
+        tarjeta.querySelector('.destino-img').alt = destino.alt;
+        tarjeta.querySelector('.destino-titulo').textContent = destino.titulo;
+        tarjeta.querySelector('.destino-descripcion').textContent = destino.descripcion;
+        tarjeta.querySelector('.destino-precio').textContent = destino.precio;
+        tarjeta.querySelector('.destino-duracion').textContent = destino.duracion;
+        tarjeta.querySelector('.destino-ubicacion').textContent = destino.ubicacion;
+
+        // Configurar eventos
+        const btnDetalles = tarjeta.querySelector('.destino-btn-detalles');
+        if (btnDetalles) {
+            btnDetalles.addEventListener('click', (e) => {
+                e.stopPropagation();
+                mostrarDetalles(destino.id);
+            });
+        }
+
+        // Configurar accesibilidad
+        const cardWrapper = tarjeta.querySelector('.destino-card');
+        if (cardWrapper) {
+            cardWrapper.setAttribute('aria-label', `Ver detalles del tour ${destino.titulo}`);
+            cardWrapper.addEventListener('click', () => mostrarDetalles(destino.id));
+            cardWrapper.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    mostrarDetalles(destino.id);
+                }
+            });
+        }
+
+        // Manejar error en imagen
+        const img = tarjeta.querySelector('.destino-img');
+        if (img) {
+            img.onerror = function() {
+                this.onerror = null;
+                this.src = 'https://placehold.co/400x225?text=Imagen+No+Disponible';
+            };
+        }
+
+        contenedor.appendChild(tarjeta);
+    });
+}
+
+// Mostrar detalles del destino
+function mostrarDetalles(id) {
+    const destino = destinos.find(d => d.id === id);
+    if (destino) {
+        console.log('Mostrando detalles para:', destino.titulo);
+        // Aquí iría la lógica para mostrar un modal o redireccionar
+    }
+}
+
+// Configurar eventos
+function configurarEventos() {
+    const btnVerMas = document.getElementById('btn-ver-mas');
+    if (btnVerMas) {
+        btnVerMas.addEventListener('click', () => {
+            console.log('Cargando más destinos...');
+            // Lógica para cargar más destinos
+        });
+    }
+}
+
+// Mostrar mensaje de error
+function mostrarError() {
+    const contenedor = document.getElementById('destinos-container');
+    if (contenedor) {
+        contenedor.innerHTML = `
+            <div class="col-span-full text-center py-12">
+                <p class="text-red-500 font-medium">Error al cargar los destinos. Intente nuevamente.</p>
+                <button class="mt-4 px-6 py-2 bg-[#004351] text-white rounded-lg hover:bg-[#003040] transition-colors" onclick="location.reload()">
+                    Reintentar
+                </button>
+            </div>
+        `;
+    }
+}
+
+// Inicializar
+document.addEventListener('DOMContentLoaded', () => {
+    cargarDestinos();
+    configurarEventos();
+});

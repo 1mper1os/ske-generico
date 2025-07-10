@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "titulo": "Paracas - Huacachina",
+        "descripcion": "Descubre la fauna marina de las Islas Ballestas y la adrenalina del desierto en la Huacachina.",
+        "precio": 120,
+        "duracion": "1 Día",
+        "ubicacion": "Ica - Paracas",
+        "imagen": "/huaca.jpg",
+        "alt": "Tour Paracas y Huacachina"
+    },
+    {
+        "id": 2,
+        "titulo": "Isla de Uros y Taquile",
+        "descripcion": "Explora las fascinantes islas flotantes de los Uros y la cultura ancestral de Taquile en el Lago Titicaca.",
+        "precio": 180,
+        "duracion": "2 Días / 1 Noche",
+        "ubicacion": "Puno - Lago Titicaca",
+        "imagen": "/uros.jpg",
+        "alt": "Tour Isla de Uros y Taquile"
+    },
+    {
+        "id": 3,
+        "titulo": "Cañón del Colca",
+        "descripcion": "Maravíllate con el vuelo del cóndor y los impresionantes paisajes del Cañón del Colca.",
+        "precio": 95,
+        "duracion": "1 Día",
+        "ubicacion": "Arequipa - Cañón del Colca",
+        "imagen": "/ca_col.jpg",
+        "alt": "Tour Cañón del Colca"
+    }
+]

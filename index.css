@@ -84,7 +84,7 @@
     line-height: 1.5;
     -webkit-text-size-adjust: 100%;
     tab-size: 4;
-    font-family: "Pontano Sans", sans-serif;
+    font-family: "Pontano Sans";
     font-optical-sizing: auto;
     -webkit-tap-highlight-color: transparent;
   }
@@ -110,7 +110,7 @@
     font-weight: bolder;
   }
   code, kbd, samp, pre {
-    font-family: "Pontano Sans", sans-serif;
+    font-family: "Pontano Sans";
     font-optical-sizing: auto;
     font-size: 1em;
   }
